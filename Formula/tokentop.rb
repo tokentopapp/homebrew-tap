@@ -2,20 +2,20 @@ class Tokentop < Formula
   desc "htop for your AI costs - real-time terminal monitoring of LLM token usage"
   homepage "https://github.com/tokentopapp/tokentop"
   license "MIT"
-  version "0.4.0"
+  version "0.5.0"
 
   on_macos do
-    url "https://github.com/tokentopapp/tokentop/releases/download/v0.4.0/ttop-darwin-arm64"
-    sha256 "ef458d76b898844b43bf8e1b7aaa63d4663eb875034ab201b13fb47b7b48c12a"
+    url "https://github.com/tokentopapp/tokentop/releases/download/v0.5.0/ttop-darwin-arm64"
+    sha256 "c7321fe651e0953b47b70b408a62b4db606887307f0c5a9a4b9fa67485b95853"
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tokentopapp/tokentop/releases/download/v0.4.0/ttop-linux-arm64"
-      sha256 "60eac3659719da35684f5b1ae892af2f8af6832b0275d976dbed69aeccee8597"
+      url "https://github.com/tokentopapp/tokentop/releases/download/v0.5.0/ttop-linux-arm64"
+      sha256 "bd4af8573575cb8c83d8e0c733b8053f927bb858fbfa9530849ddb9a338596aa"
     else
-      url "https://github.com/tokentopapp/tokentop/releases/download/v0.4.0/ttop-linux-x64"
-      sha256 "0881e97328de04be3c4c0c3d99f5d9382a856cbf8aa1d14257810b6375821807"
+      url "https://github.com/tokentopapp/tokentop/releases/download/v0.5.0/ttop-linux-x64"
+      sha256 "4583bdf6c39d4c3a32baddfe5007ef1f1d1e6a6b09f38fa8398d0615c494c595"
     end
   end
 
